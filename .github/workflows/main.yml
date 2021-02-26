@@ -16,5 +16,5 @@ jobs:
       - name: Run script
         run: |
           pip install black isort
-          black --check homework*
-          isort -rc homework*       
+          black --check .
+          isort -rc .       
