@@ -17,4 +17,4 @@ jobs:
         run: |
           pip install black isort
           black --check .
-          isort -rc .       
+          isort --check .       
